@@ -22,18 +22,18 @@ API_HASH = os.environ.get("API_HASH", "ef85493cd32eadcb5309b5957d8d1b86")
 CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002477497384"))
 
 #OWNER ID
-OWNER_ID = int(os.environ.get("OWNER_ID", "7390296183"))
+OWNER_ID = int(os.environ.get("OWNER_ID", "6440021089"))
 
 #Port
 PORT = os.environ.get("PORT", "8080")
 
 #Database 
 DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://meow:meow@meow.a6bo1.mongodb.net/?retryWrites=true&w=majority&appName=meow")
-DB_NAME = os.environ.get("DATABASE_NAME", "meowtaro")
+DB_NAME = os.environ.get("DATABASE_NAME", "white")
 
 #force sub channel id, if you want enable force sub
 FORCESUB_CHANNEL = int(os.environ.get("FORCESUB_CHANNEL", "-1002034112983"))
-FORCESUB_CHANNEL2 = int(os.environ.get("FORCESUB_CHANNEL2", "-1002325248562"))
+FORCESUB_CHANNEL2 = int(os.environ.get("FORCESUB_CHANNEL2", "-1002079262026"))
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
